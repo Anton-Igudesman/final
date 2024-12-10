@@ -27,7 +27,7 @@ begin
 		if Q10 = "0101" and Q1 = "1001" then
 			tens_rst <= '1';
 		else
-			tens_rst <= '0';
+			tens_rst <= '1';
 		end if;
 	end process;
     

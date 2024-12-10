@@ -1,0 +1,824 @@
+# Compile of ffjk.vhd failed with 1 errors.
+# Compile of ffjk.vhd failed with 1 errors.
+# Compile of ffjk.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:15:07 on Dec 02,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 450ps -endtime 525ps Edit:/counter_unit/reset
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+run
+# Compile of ffjk.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 18:27:49 on Dec 04,2024, Elapsed time: 45:12:42
+# Errors: 0, Warnings: 7
+# vsim -gui work.counter_unit(arch) 
+# Start time: 18:27:49 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 775ps -endtime 850ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 1375ps -endtime 1675ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+run
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 1500ps -endtime 1600ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+run
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+vsim -gui work.counter_unit(arch)
+# End time: 18:42:11 on Dec 04,2024, Elapsed time: 0:14:22
+# Errors: 0, Warnings: 1
+# vsim -gui work.counter_unit(arch) 
+# Start time: 18:42:11 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 1650ps -endtime 1925ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+run
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd failed with 36 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:02:36 on Dec 04,2024, Elapsed time: 0:20:25
+# Errors: 0, Warnings: 5
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:02:37 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 325ps -endtime 525ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 2525ps -endtime 2625ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 2500ps -endtime 2800ps Edit:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 0 -starttime 2500ps -endtime 2800ps Edit:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 2800ps -endtime 3100ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens
+run
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:18:15 on Dec 04,2024, Elapsed time: 0:15:38
+# Errors: 0, Warnings: 4
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:18:15 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 225ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 1025ps -endtime 1125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 4000ps -endtime 4500ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens
+run
+# Compile of counter_unit.vhd was successful.
+# Load canceled
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:29:22 on Dec 04,2024, Elapsed time: 0:11:07
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:29:22 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens \
+sim:/counter_unit/J_ones \
+sim:/counter_unit/K_ones \
+sim:/counter_unit/J_tens \
+sim:/counter_unit/K_tens \
+sim:/counter_unit/nine
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:33:16 on Dec 04,2024, Elapsed time: 0:03:54
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:33:16 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens \
+sim:/counter_unit/J_ones \
+sim:/counter_unit/K_ones \
+sim:/counter_unit/J_tens \
+sim:/counter_unit/K_tens \
+sim:/counter_unit/nine
+run
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens \
+sim:/counter_unit/nine
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:40:53 on Dec 04,2024, Elapsed time: 0:07:37
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:40:53 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens
+run
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:50:18 on Dec 04,2024, Elapsed time: 0:09:25
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:50:18 on Dec 04,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 2000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 2000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 1300ps -endtime 1450ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.dual_counter(arch)
+# End time: 19:27:58 on Dec 08,2024, Elapsed time: 95:37:40
+# Errors: 0, Warnings: 2
+# vsim -gui work.dual_counter(arch) 
+# Start time: 19:27:58 on Dec 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dual_counter(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/dual_counter/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/dual_counter/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/dual_counter/reset
+add wave -position insertpoint  \
+sim:/dual_counter/Q1s \
+sim:/dual_counter/Q10s
+run
+# Compile of counter_unit.vhd failed with 2 errors.
+# Compile of counter_unit.vhd failed with 2 errors.
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+# Load canceled
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:20:19 on Dec 08,2024, Elapsed time: 0:52:21
+# Errors: 0, Warnings: 10
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:20:19 on Dec 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+add wave -position insertpoint  \
+sim:/counter_unit/Q_ones \
+sim:/counter_unit/Q_tens
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.two_digit_counter
+# End time: 20:26:15 on Dec 08,2024, Elapsed time: 0:05:56
+# Errors: 0, Warnings: 2
+# vsim -gui work.two_digit_counter 
+# Start time: 20:26:15 on Dec 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_digit_counter(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/two_digit_counter/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/toggle_swatch
+add wave -position insertpoint  \
+sim:/two_digit_counter/Q_ones \
+sim:/two_digit_counter/Q_tens
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.two_digit_counter
+# End time: 20:30:30 on Dec 08,2024, Elapsed time: 0:04:15
+# Errors: 0, Warnings: 2
+# vsim -gui work.two_digit_counter 
+# Start time: 20:30:30 on Dec 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_digit_counter(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/two_digit_counter/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/toggle_swatch
+add wave -position insertpoint  \
+sim:/two_digit_counter/Q_ones \
+sim:/two_digit_counter/Q_tens
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.two_digit_counter
+# End time: 20:36:53 on Dec 08,2024, Elapsed time: 0:06:23
+# Errors: 0, Warnings: 2
+# vsim -gui work.two_digit_counter 
+# Start time: 20:36:53 on Dec 08,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.two_digit_counter(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/two_digit_counter/reset
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 4000ps sim:/two_digit_counter/toggle_swatch
+add wave -position insertpoint  \
+sim:/two_digit_counter/Q_ones \
+sim:/two_digit_counter/Q_tens
+run
+# Compile of ffjk.vhd failed with 1 errors.
+# Compile of ffjk.vhd was successful.
+# Compile of counter_unit.vhd failed with 7 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:09:37 on Dec 09,2024, Elapsed time: 22:32:44
+# Errors: 0, Warnings: 5
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:09:37 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 525ps -endtime 625ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 1025ps -endtime 1425ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+vsim -gui work.counter_unit(arch)
+# End time: 19:14:45 on Dec 09,2024, Elapsed time: 0:05:08
+# Errors: 0, Warnings: 1
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:14:46 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of ffjk.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:19:31 on Dec 09,2024, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:19:31 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:26:03 on Dec 09,2024, Elapsed time: 0:06:32
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:26:03 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 6000ps sim:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 6000ps Edit:/counter_unit/toggle_swatch
+run
+# Compile of counter_unit.vhd failed with 11 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:34:44 on Dec 09,2024, Elapsed time: 0:08:41
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:34:44 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 8000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 8000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 8000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 8000ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd failed with 2 errors.
+# Compile of counter_unit.vhd failed with 2 errors.
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 19:41:11 on Dec 09,2024, Elapsed time: 0:06:27
+# Errors: 0, Warnings: 5
+# vsim -gui work.counter_unit(arch) 
+# Start time: 19:41:11 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 8000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 8000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 825ps -endtime 925ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 8000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 8000ps Edit:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 525ps -endtime 825ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q1
+add wave -position insertpoint  \
+sim:/counter_unit/Q10
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:00:16 on Dec 09,2024, Elapsed time: 0:19:05
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:00:16 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 626ps -endtime 825ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10
+add wave -position insertpoint  \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:08:43 on Dec 09,2024, Elapsed time: 0:08:27
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:08:43 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 625ps -endtime 875ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:14:59 on Dec 09,2024, Elapsed time: 0:06:16
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:14:59 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1125ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 500ps -endtime 700ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:28:59 on Dec 09,2024, Elapsed time: 0:14:00
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:28:59 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 500ps -endtime 600ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.dual_counter(arch)
+# End time: 20:41:02 on Dec 09,2024, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 2
+# vsim -gui work.dual_counter(arch) 
+# Start time: 20:41:02 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.dual_counter(arch)
+# Loading work.ffjk(arch)
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:41:51 on Dec 09,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:41:51 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps Edit:/counter_unit/reset
+# Compile of ffjk.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 20:52:31 on Dec 09,2024, Elapsed time: 0:10:40
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:52:31 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+# ** Fatal: (vsim-3817) Port "enable" of entity "ffjk" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_unit/FF_1_3 File: C:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd Line: 5
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 20:52:31 on Dec 09,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of counter_unit.vhd was successful.
+# Compile of ffjk.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:53:16 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+# ** Fatal: (vsim-3817) Port "enable" of entity "ffjk" is not in the component being instantiated.
+#    Time: 0 ps  Iteration: 0  Instance: /counter_unit/FF_1_3 File: C:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd Line: 5
+# FATAL ERROR while loading design
+# Error loading design
+# End time: 20:53:17 on Dec 09,2024, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of counter_unit.vhd failed with 6 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# vsim -gui work.counter_unit(arch) 
+# Start time: 20:55:58 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 625ps -endtime 725ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:01:20 on Dec 09,2024, Elapsed time: 0:05:22
+# Errors: 0, Warnings: 5
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:01:20 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 525ps -endtime 625ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of ffjk.vhd was successful.
+# Compile of counter_unit.vhd failed with 6 errors.
+# Compile of counter_unit.vhd failed with 15 errors.
+# Compile of counter_unit.vhd failed with 14 errors.
+# Compile of counter_unit.vhd failed with 4 errors.
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd was successful.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:19:07 on Dec 09,2024, Elapsed time: 0:17:47
+# Errors: 0, Warnings: 9
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:19:07 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 525ps -endtime 625ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:31:09 on Dec 09,2024, Elapsed time: 0:12:02
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:31:09 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:34:45 on Dec 09,2024, Elapsed time: 0:03:36
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:34:45 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps Edit:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 625ps -endtime 725ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd failed with 1 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:43:59 on Dec 09,2024, Elapsed time: 0:09:14
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:43:59 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 625ps -endtime 725ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd failed with 3 errors.
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:50:52 on Dec 09,2024, Elapsed time: 0:06:53
+# Errors: 0, Warnings: 3
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:50:52 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 725ps -endtime 825ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:55:37 on Dec 09,2024, Elapsed time: 0:04:45
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:55:37 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 725ps -endtime 825ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run
+# Compile of counter_unit.vhd was successful.
+vsim -gui work.counter_unit(arch)
+# End time: 21:58:41 on Dec 09,2024, Elapsed time: 0:03:04
+# Errors: 0, Warnings: 2
+# vsim -gui work.counter_unit(arch) 
+# Start time: 21:58:41 on Dec 09,2024
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.counter_unit(arch)
+# Loading work.ffjk(arch)
+wave create -driver freeze -pattern clock -initialvalue 0 -period 100ps -dutycycle 50 -starttime 0ps -endtime 9000ps sim:/counter_unit/Clk
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 25ps -endtime 125ps Edit:/counter_unit/reset
+wave modify -driver freeze -pattern constant -value 1 -starttime 925ps -endtime 1025ps Edit:/counter_unit/reset
+wave create -driver freeze -pattern constant -value 0 -starttime 0ps -endtime 9000ps sim:/counter_unit/toggle_swatch
+wave modify -driver freeze -pattern constant -value 1 -starttime 725ps -endtime 825ps Edit:/counter_unit/toggle_swatch
+add wave -position insertpoint  \
+sim:/counter_unit/Q10 \
+sim:/counter_unit/Q1
+run

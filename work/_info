@@ -1,0 +1,176 @@
+m255
+K4
+z2
+!s11e MIXED_VERSIONS
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/anton/OneDrive/Documents/Quartus Projects/jk_counter
+Ecounter_unit
+Z0 w1733810279
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 73
+Z3 dC:/Users/anton/OneDrive/Documents/Quartus Projects/final
+Z4 8C:/Users/anton/OneDrive/Documents/Quartus Projects/final/counter_unit.vhd
+Z5 FC:/Users/anton/OneDrive/Documents/Quartus Projects/final/counter_unit.vhd
+l0
+L4 1
+VWW7o>>P6=8G29f^k5LD``0
+!s100 X8e3L`]b1cRVNKzAk1Dk<0
+Z6 OV;C;2020.1;71
+32
+Z7 !s110 1733810301
+!i10b 1
+Z8 !s108 1733810301.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/final/counter_unit.vhd|
+Z10 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/final/counter_unit.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aarch
+R1
+R2
+Z13 DEx4 work 12 counter_unit 0 22 WW7o>>P6=8G29f^k5LD``0
+!i122 73
+l24
+Z14 L11 64
+VcllA8@kQBh_e^=AimAnE03
+!s100 PDWVXbW`X>Z^>Vh;o^AII3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edual_counter
+w1733714843
+R1
+R2
+!i122 21
+R3
+R4
+R5
+l0
+L4 1
+VYmZ<JklZ4]JclAFoZ0of<3
+!s100 0lK5f_EWH42fPjE`IdEc]3
+R6
+32
+Z15 !s110 1733714854
+!i10b 1
+Z16 !s108 1733714853.000000
+R9
+R10
+!i113 1
+R11
+R12
+Aarch
+w1733715496
+R1
+R2
+DEx4 work 12 dual_counter 0 22 YmZ<JklZ4]JclAFoZ0of<3
+!i122 21
+l22
+L11 48
+VdQkC3J?UKLR7>QG=EY6Io2
+!s100 PCN8ezcCBgF^a1N1Kolcm1
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R10
+!i113 1
+R11
+R12
+Effjk
+Z17 w1733807242
+R1
+R2
+!i122 58
+R3
+Z18 8C:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd
+Z19 FC:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd
+l0
+L4 1
+Vd0RAYVzZ08NDb3Xf><Pl20
+!s100 TJ3g@WjzXDL>E3aT5V^<V1
+R6
+32
+Z20 !s110 1733807591
+!i10b 1
+Z21 !s108 1733807591.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd|
+Z23 !s107 C:/Users/anton/OneDrive/Documents/Quartus Projects/final/ffjk.vhd|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 4 ffjk 0 22 d0RAYVzZ08NDb3Xf><Pl20
+!i122 58
+l10
+L9 22
+VUigTejAUHYKEN9@]Jmfh^1
+!s100 YZjj[D4z@0TSZ3F;X@Y0=1
+R6
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Etwo_digit_counter
+Z24 w1733718984
+R1
+R2
+!i122 29
+R3
+R4
+R5
+l0
+L4 1
+V=lFXnDFTK6gMK>>lGnOUe0
+!s100 n:JJ_nbhUFeNVCzn3>2=23
+R6
+32
+Z25 !s110 1733718994
+!i10b 1
+Z26 !s108 1733718994.000000
+R9
+R10
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 17 two_digit_counter 0 22 =lFXnDFTK6gMK>>lGnOUe0
+!i122 29
+l20
+L11 56
+VOIS0:FmB9P4A9=2FczeEf1
+!s100 2e?l[dZJ9iFDNQPPLKe160
+R6
+32
+R25
+!i10b 1
+R26
+R9
+R10
+!i113 1
+R11
+R12
